@@ -36,7 +36,7 @@ void playTone(int tone, int duration)
 void playNote(char note, int duration)
 {
     char names[] = {'5', '6', '7', 'c', 'd', 'e', 'f', 'g', 'a', 'b', 'C'};
-    int tones[] = {2600, 2400, 2200, 1915, 1700, 1519, 1432, 1275, 1136, 1014, 956};
+    int tones[] = {2551, 2273, 2024, 1915, 1700, 1519, 1432, 1275, 1136, 1014, 956};
     
     for (int i = 0; i < 11; i++) {
         if (names[i] == note) {
